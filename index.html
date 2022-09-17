@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/CSS/login.css">
+    <link rel="stylesheet" href="/assets/CSS/index.css">
+</head>
+
+<body>
+    <video class="backround" playsinline autoplay muted loop>
+        <source class="source1 noneBlock" src="/assets/MP4/Pexels Videos 2695085.mp4" type="video/mp4">
+    </video>
+    <video class="backround2 noneBlock" playsinline autoplay muted>
+        <source class="source2 " src="/assets/MP4/istockphoto-473252869-640_adpp_is.mp4" type="video/mp4">
+    </video>
+    <header class="noi_dung">
+        <h1 class="header_title">
+            Server Trái đất
+        </h1>
+        <div class="alert">
+            <h1>Bạn có muốn đăng xuất ?</h1>
+            <button onclick="logOut()" class="yes">Đồng ý</button>
+            <button onclick="cancel()" class="no">Hủy</button>
+        </div>
+        <div class="load_title">
+            Đang tải server Thiên Đường
+        </div>
+
+        <div class="login-page noneBlock">
+            <div class="form">
+                <form class="register-form">
+                    <input type="text" placeholder="name" />
+                    <input type="password" placeholder="password" />
+                    <input type="text" placeholder="email address" />
+                    <button>create</button>
+                    <p class="message">Already registered? <a href="#">Đăng nhập</a></p>
+                </form>
+                <form class="login-form">
+                    <input type="text" placeholder="Tên đăng nhập" />
+                    <input type="password" placeholder="Mật khẩu" />
+                    <button>login</button>
+                    <p class="message">Not registered? <a href="#">Create an account</a></p>
+                </form>
+            </div>
+        </div>
+
+        <div class="load">
+        </div>
+    </header>
+
+    <audio loop autoplay>
+        <source src="/assets/MP3/night-of-the-piano-12.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>
+
+<script src="/assets/JS/main_ctrl.js"></script>
+<script src="/assets/JS/login.js"></script>
